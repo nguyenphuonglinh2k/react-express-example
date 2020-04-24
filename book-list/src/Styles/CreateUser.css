@@ -1,0 +1,42 @@
+form {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form div {
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+form div:nth-child(2) {
+    margin-bottom: 15px;
+}
+
+form div:nth-child(2) div {
+    margin-bottom: 10px;
+}
+
+form div:first-child p {
+    color: #999;
+    font-weight: 400;
+}
+
+h2 {
+    font-weight: 700;
+    text-shadow: .2px .2px .2x grey;
+}
+
+label {
+    color: rgba(0, 0, 0, .3);
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+input {
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, .3);
+    outline: none;
+    width: 100%;
+}
